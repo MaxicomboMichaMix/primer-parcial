@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.mainColor {
+		background-color: #E5E8E8;
+}
+.body {
+	margin: 4em;
+
+	
+	height: 100%;
+}
+
+.title  {
+
+	margin: 3em;
+}
+
+.title h2{
+	text-align: center;
+	font-size: 2em;
+}
+
+.depositDiv{
+	
+	box-shadow: 1px 1px 1px 1px;
+	border-radius: 1em;
+	padding: 2em;
+	margin:3em 0 0 0;
+	background-color: white;
+}
+
+.titleDeposit p {
+	margin: 1em;
+	font-size: 1.5em;
+}
+
+.moneyBox{
+	width: 55%;
+	display: flex;
+	border: 2px solid gray;
+	padding: 1em;
+	border-radius: 1em;
+	margin: 0 2em 0 0;
+}
+
+.moneyBox p{
+	font-size: 3em;
+
+}
+
+.moneyElements{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.calendarDiv{
+	margin: 4em 0 0 0 ;
+	width: 100%;
+}
+
+.moneyLogo{
+	width: 45%;
+	justify-content: flex-end;
+}
+
+.timeDiv{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.5em;
+}
+
+#monthT{
+	color: gray;
+}
+
+.days{
+	margin: 1em 0 0 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-content:center;
+}
+
+#textI{
+	font-size: 1.5em;
+}
+
+.days div {
+	border: 2px solid gray;
+	border-radius: 1em;
+	width: 3em;
+	height: 3em;
+	text-align: center;
+	padding: 2em 1em 0em 1em;
+	font-size:1.8em;
+
+
+}
+
+.redDiv{
+	background: #E74C3C;
+}
+
+.redDiv p {
+	border: 2px solid #E74C3C;
+	color: white;
+}
+
+.paymentsDiv{
+	margin: 5em 0 0 0;
+	width: 100%;
+}
+
+.twoDivs{
+	margin: 2em 0 0 0;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+
+.leftCont{
+	border: 2px solid #E74C3C;
+	width: 50%;
+	border-radius: 1em;
+	padding: 4em;
+	background-color: #E74C3C;
+}
+
+.leftCont i{
+	margin-bottom: .7em;
+	color: #C0392B  ;
+}
+
+.leftCont p{
+	color: white;
+}
+
+.rightContainer{
+	width: 50%;
+	border: 2px solid gray;
+	border-radius: 1em;
+	padding: 14.5em 2em 2em 2em;
+	margin: 0 0 0 1em;
+	background-color: white;
+}
+
+.percentageL{
+	font-size: 2em;
+}
+.percentageR{
+	font-size: 2em;
+}
+#monthlyT{
+	color: gray;
+	margin: 1em 0 0 0;
+}
+#textEnd{
+	margin: 1em 0 0 0;
+}
+
+.calculateDiv{
+	margin: 4em 0 0 0;
+	background-color:#E74C3C;
+	border: 2px solid #E74C3C;
+	border-radius: 1em;
+	padding: 2em;
+}
+
+.calculateDiv h1{
+	font-size: 3em;
+	color: white;
+	text-align: center;
+}
+#colorR{
+	background-color: white;
+}
